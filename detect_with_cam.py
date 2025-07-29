@@ -22,6 +22,8 @@ while True:
 
     results.render()
     cv2.imshow("YOLO Camera Detection", results.ims[0])
+
+    
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 

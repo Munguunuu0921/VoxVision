@@ -1,0 +1,6 @@
+train: datasets/crosswalk_dataset/train/images
+val: datasets/crosswalk_dataset/valid/images
+test: datasets/crosswalk_dataset/test/images
+
+nc: 3
+names: ['green_pedestrian_light', 'red_pedestrian_light', 'zebra']
